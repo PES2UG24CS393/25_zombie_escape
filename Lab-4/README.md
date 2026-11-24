@@ -94,6 +94,8 @@ Submission is only the following three things:
 - Four single-use barrels destroy zombies whose centers are within 115 pixels of the blast. Each zombie destroyed counts toward score and wave progress.
 - Each wave includes Fast (yellow, 1 HP), Tank (purple, 6 HP), and standard (green, 3 HP) zombies. The next wave starts when the current wave is cleared. Pressing R restores the player, barrels, and wave 1.
 
-The logic checks exercised damage timing, game over and restart, reload timing, barrel collisions and blast range, zombie variants, and three wave transitions using a Pygame test double. Both launch attempts require `pygame-ce` before gameplay can be recorded.
+Gameplay checks with pygame-ce 2.5.8 covered damage timing, game over and restart, reload timing, barrel collisions and blast range, zombie variants, and three wave transitions.
+
+`before.mp4` captures the unmodified starter code. `after.mp4` captures the updated game. Both clips are 10-second Pygame recordings with scripted inputs.
 
 The local conversation export is `chat-history.pdf`.
